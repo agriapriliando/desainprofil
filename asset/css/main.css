@@ -172,7 +172,7 @@ span.size {
     margin: 0 !important; 
     padding: 0 0,3em !important;
     color: black !important;
-    border: solid 1px #f8f8f8;
+    border: solid 0px #f8f8f8;
     transition: 0.5s;
   }
 
@@ -216,19 +216,19 @@ span.layanan {
 
 /* share section */
 span.bagi {
-  font-size: 6vh;
+  font-size: 4vh;
 }
 
 /* footer */
 span.footer {
   color: #630460;
   font-size: 5vh;
-  border-bottom: solid 0.5vh #efefef;
+  border-bottom: solid 0.2vh #630640;
   transition: 1s;
 }
 
 span.footer:hover {
-  border-bottom: solid 0.5vh #630460;
+  border-bottom: solid 1vh #630460;
 }
 
 li.footer {
@@ -236,14 +236,13 @@ li.footer {
 }
 
 a.btn-primary {
-  transition: 0.5s;
+  transition: 0.25s;
 }
 
 a.btn-primary:hover {
   background-color: white;
   color: #630460;
 }
-
 
 /* login */
 
