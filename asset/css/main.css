@@ -128,7 +128,7 @@ span.bar {
 
 /* margin tambahan fixed top */
 .sectionrespon {
-  margin-top: 18vh;
+  margin-top: 15vh;
 }
 
 
@@ -204,14 +204,12 @@ span.layanan {
 }
 
 .servis {
-  background-color: white;
-  border: solid 1vh white;
+  border: solid 0vh white;
   transition: 500ms;
 }
 
 .servis:hover {
-  background-color: white;
-  border: solid 0.5vh #630460;
+  border: solid 1vh #630460;
 }
 
 /* share section */
