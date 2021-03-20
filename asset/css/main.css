@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+/* pengaturan font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif !important;
 }
+
 /* any */
 .bg-primary {
-    background-color: #630640;
+    background-color: #630640 !important;
 }
 
 .bg-secondary {
@@ -251,4 +252,40 @@ button.btn.login {
 button.login:hover {
   background-color: white;
   color: #630460;
+}
+
+/* css baru tambahan */
+
+.dayak-bg {
+  background-image: url("/asset/img/background/berita_motif.png");
+}
+
+.angka-bg {
+  background-image: url("/asset/img/background/angka_bg.png");
+  background-size: cover;
+  background-position:left bottom;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kerjasama {
+  width: 15vh;
+}
+
+@media screen and (max-width: 600px) {
+p .foot {
+  font-size: 5px;
+}
+}
+
+.angka {
+  border: 0px solid rgba(0, 0, 0, 0.0);
+  transition: 500ms;
+  padding: 17px 0;
+}
+
+.angka:hover {
+  border: 3px solid white;
 }
