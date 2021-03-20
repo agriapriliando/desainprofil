@@ -168,6 +168,7 @@ span.size {
   .dropdown-menu {
   margin-top: 0;
   }
+
 /* navbar padding */
   li.nav-item,a.nav-link {
     margin: 0 !important; 
@@ -274,9 +275,18 @@ button.login:hover {
   width: 15vh;
 }
 
-@media screen and (max-width: 600px) {
-p .foot {
-  font-size: 5px;
+@media screen and (max-width: 700px) {
+p.foot {
+  font-size: 10px !important;
+}
+
+h3.angka-font {
+  font-size: 1.8vh !important;
+  font-weight: bold;
+}
+
+span.btn-print {
+  display: none !important;
 }
 }
 
